@@ -1,0 +1,90 @@
+{
+  "kind": "collectionType",
+  "collectionName": "produkte_and_services",
+  "info": {
+    "name": "Produkte & Services"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SortDesc": {
+      "type": "string"
+    },
+    "Desc1": {
+      "type": "richtext"
+    },
+    "Pic1": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Desc2": {
+      "type": "richtext"
+    },
+    "Pic2": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Desc3": {
+      "type": "richtext"
+    },
+    "Pic3": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Desc4": {
+      "type": "richtext"
+    },
+    "Pic4": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Desc5": {
+      "type": "richtext"
+    },
+    "Pic5": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
